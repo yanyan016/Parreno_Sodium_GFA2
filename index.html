@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" href="css-script.css">
+        <script src="js-script.js"></script>
+    </head>
+    <body>
+        <h1 class="header">Simple Calculator</h1>
+
+        <div class="instructions">
+            <h1 style="text-align: left;">How to Use?</h1> 
+            <hr class="hr1">
+            <p>Input your first and second values in the space below labeled "Number 1" and "Number 2", respectively. 
+                Then, pick one of the arithmatic operations presented below (addition, subtraction, multiplication, division, and 
+                remainder). And you're done! the answer to your simple math problem should be presented in the "Result" space below the 
+                operation buttons.</p>
+        </div>
+
+        <div class="Calculator">
+            Number 1: <input type="text" id="n1">
+            <br>
+            Number 2: <input type="text" id="n2">
+            <br>
+
+            <p>Click an arithmatic operation below:</p>
+
+            <input type="button" name="add" value="+" onclick="Add()";>
+            <input type="button" name="minus" value="-" onclick="Sub()";>
+            <input type="button" name="multi" value="*" onclick="Multi()";>
+            <input type="button" name="div" value="/" onclick="Div()";>
+            <input type="button" name="rem" value="%" onclick="Rem()";>
+
+            <p>Result:<input type="display" id="result"></p>
+            
+        </div>
+        <div class="footer">
+            <p>Name: Anya Jane A. Parreno</p>
+            <p>Grade and Section: 9 - Sodium</p>
+            <p>Date: March 20, 2023 @ 1AM</p>
+        </div>
+    </body>
+</html>
